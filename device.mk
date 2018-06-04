@@ -33,5 +33,9 @@ PRODUCT_COPY_FILES += \
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
+# Remove audiofx
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
