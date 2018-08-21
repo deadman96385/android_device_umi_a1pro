@@ -75,3 +75,6 @@ WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY ?= true
 
 # Root
 BOARD_ROOT_EXTRA_FOLDERS := nvcfg nvdata protect_f protect_s
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
