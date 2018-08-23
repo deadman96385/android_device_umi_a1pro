@@ -25,3 +25,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
+
+# Properties
+-include $(LOCAL_PATH)/system_prop.mk
