@@ -26,5 +26,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# HIDL
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/compatibility_matrix.xml:system/compatibility_matrix.xml
+
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
