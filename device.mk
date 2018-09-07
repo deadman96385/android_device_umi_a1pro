@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/compatibility_matrix.xml:system/compatibility_matrix.xml
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
 
 # Remove audiofx
 PRODUCT_PACKAGES += \
